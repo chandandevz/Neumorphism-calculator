@@ -17,6 +17,7 @@ buttons.forEach((button)=>{
             }
         }
         else{
+            str = numField.value
             str = str + button.value
             numField.value = str
             console.log(typeof str);
